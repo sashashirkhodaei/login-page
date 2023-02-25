@@ -25,3 +25,31 @@ body{
 .login-left {
     padding-top:110px;
 }
+
+.login-right {
+    padding-top:110px;
+}
+
+
+input[type='email'],
+input[type='password'],
+button {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0 2rem;
+    height: 55px;
+    width: 50%;
+    outline:none;
+    font-size: 18px;
+}
+
+button {
+    background-color: #E2857E;
+    color: white;
+    border:none;
+}
+
+.login-form-content p {
+    padding-left:240px;
+    opacity: 0.4;
+}
