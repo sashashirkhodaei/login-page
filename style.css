@@ -22,14 +22,9 @@ body{
     flex: 50%;
 }
 
-.login-left {
+.login-left, .login-right{
     padding-top:110px;
 }
-
-.login-right {
-    padding-top:110px;
-}
-
 
 input[type='email'],
 input[type='password'],
@@ -52,4 +47,6 @@ button {
 .login-form-content p {
     padding-left:240px;
     opacity: 0.4;
+}
+.login-form-footer {
 }
