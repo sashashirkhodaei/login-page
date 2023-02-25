@@ -1,0 +1,22 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding:0;
+    margin:0;
+}
+
+.row {
+    display:flex;
+    text-align: center;
+}
+
+.column {
+    flex: 50%;
+}
+
+.login-left {
+    padding-top:110px;
+}
