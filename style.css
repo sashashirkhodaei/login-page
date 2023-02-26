@@ -1,6 +1,7 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 *{
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
 
 body{
@@ -42,11 +43,25 @@ button {
     background-color: #E2857E;
     color: white;
     border:none;
+    cursor: pointer;
 }
+
+button:hover {background-color: #E2857E;}
+
+button:active {
+    background-color: #E2857E;
+    box-shadow: 0 5px #eee;
+    transform: translateY(4px);
+}
+
+
 
 .login-form-content p {
     padding-left:240px;
     opacity: 0.4;
 }
-.login-form-footer {
+
+.login-form-footer img{ 
+margin-left: auto;
+
 }
