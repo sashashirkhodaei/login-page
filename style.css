@@ -39,16 +39,22 @@ button {
     font-size: 18px;
 }
 
-.email {
+.email , .password {
+    padding-top: 20px;
     padding-bottom: 10px; 
 }
 
-.password { 
-    padding-top: 10px;
+.password{
+    padding-bottom:20px;
+}
+
+.checkbox {
+    font-size: 14px;
+    padding-left: 200px;
 }
 
 .sign-in {
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 button {
@@ -65,3 +71,12 @@ button:active {
     transform: translateY(4px);
 }
 
+.footer-logos {
+    justify-content: center;
+    display:flex;
+    gap: 50px;
+}
+
+.footer-text {
+    padding-top:10px;
+}
