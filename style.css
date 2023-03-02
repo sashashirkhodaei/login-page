@@ -95,9 +95,8 @@ button:active {
     input[type='email'],
     input[type='password'],
     button { 
-        padding: 0 ;
+        padding: 0 1rem;
         width: 70%;
-        text-align: center;
     }
     .email , .password {
         padding-top: 15px;
