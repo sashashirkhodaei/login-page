@@ -80,3 +80,27 @@ button:active {
 .footer-text {
     padding-top:10px;
 }
+
+/* Media Queries For Mobile */
+@media only screen and (max-width:600px){
+    .login-left, .checkbox{
+        display: none;
+    }
+    .login-right {
+        padding-top: 70px;
+    }
+    .row{
+        background: #eee 100%;
+    }
+    input[type='email'],
+    input[type='password'],
+    button { 
+        padding: 0 ;
+        width: 70%;
+        text-align: center;
+    }
+    .email , .password {
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+}
